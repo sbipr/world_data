@@ -1,6 +1,9 @@
 import requests
 import json
+import worldometer
 import psycopg2
+
+print(worldometer.api.births_today())
 
 # Set up connection to Amazon RDS instance
 # Replace the values in the parentheses with your own database credentials
