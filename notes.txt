@@ -1,0 +1,8 @@
+# db_xs = rds.describe_db_instances()
+
+# pprint(db_xs)
+
+# token = rds.generate_db_auth_token(DBHostname=ENDPOINT, Port=PORT, DBUsername=USER, Region=REGION)
+
+# if __name__ == '__main__':
+    #print(worldometer.api.births_today())
